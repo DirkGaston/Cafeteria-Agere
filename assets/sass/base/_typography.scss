@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=Roboto:wght@300&display=swap');
+
+.navbar__Topnav a{
+    font-family: $ptmono;
+    font-weight: 400;
+    color: $quicksilver;
+    text-decoration: none;
+}
+
+button {
+    font-family: $ptmono;
+    font-weight: 400;
+}
+
+hgroup h1{
+    font-family: $ptmono;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: $black;
+}
+
+hgroup h2{
+    font-family: $roboto;
+    font-size: 1rem;
+    font-weight: 300;
+    color: $black;
+}
+
+.square__orange i{
+    font-size: 3rem;
+    color: $white;
+    position: relative;
+    left: 3.125rem;
+    top: 2.938rem;
+
+}
+
+header hgroup h1{
+    font-size: 4rem;
+}
+
+header hgroup h2{
+    font-size: 1rem;
+}
+
+.aboutUs h1{
+    font-size: 2rem;
+}

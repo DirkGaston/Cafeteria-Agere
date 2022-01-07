@@ -1,0 +1,57 @@
+main img{
+    position: relative;
+    z-index: 0;
+    width: 66%;
+}
+
+.containerhGroup{
+    position: relative;
+    left: 28rem;
+    bottom: 10rem;
+    background-color: white;
+    z-index: 1;
+    width: 30rem;
+    height: 9rem;
+
+
+}
+
+hgroup{
+    height: 60px;
+    display: inline-block;
+    text-align: left;
+    padding-right: 1.25rem;
+}
+
+hgroup h1{
+    margin-bottom: 0px !important;
+}
+
+.hgroup1{
+    padding-left: 1rem;
+}
+
+.container-squares{
+    float: right;
+}
+
+.square {
+    height: 9.063rem;
+    width: 9.063rem;
+}
+
+.square__orange {
+    background-color: $flame;
+    left: 25rem;
+    bottom: 1.25rem;
+    z-index: 1;
+    position: absolute;
+    
+}
+
+.square__yellow {
+    background-color: $coral;
+    left: 26.25rem;
+    position: absolute;
+    z-index: 0;
+}

@@ -1,0 +1,21 @@
+button {
+    background-color: $shinyshamrock;
+    border: $shinyshamrock;
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+  }
+
+  .navbar__TopnavRight--button{
+    background-color: $white;
+    border: $quicksilver;
+    border-style: solid;
+    border-width: 1px;
+    color: $quicksilver;
+}
+

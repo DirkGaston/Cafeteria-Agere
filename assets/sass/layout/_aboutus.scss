@@ -1,0 +1,70 @@
+.aboutUs {
+    width: 33%;
+    padding-left: 5rem;
+    position: relative;
+    bottom: 7.5rem;
+}
+
+.aboutUs h2 {
+    width: 60%
+}
+
+.aboutUs .square {
+    height: 15.625rem;
+    width: 26.563rem;
+}
+
+.aboutUs .square__blue {
+    background-color: $bluedefrance;
+    left: 27.938rem;
+    top: -2.813rem;
+    z-index: 1;
+    position: absolute;
+    
+}
+
+.aboutUs .map{
+    float: right;
+    position: relative;
+}
+
+.aboutUs .map img{
+    width: 26rem;
+    float: right;
+    position: relative;
+    left: 22rem;
+    bottom: 11rem;
+    z-index: 1;
+
+}
+
+.aboutUs .bean{
+    float: right;
+    position: relative;
+}
+
+.aboutUs .bean img{
+    width: 10rem;
+    float: right;
+    position: relative;
+    left: 31.25rem;
+    bottom: 26.25rem;
+    z-index: 1;
+    transform: rotate(90deg)
+
+}
+
+.aboutUs .coffee{
+    float: right;
+    position: relative;
+}
+
+.aboutUs .coffee img{
+    width: 34rem;
+    float: right;
+    position: relative;
+    left: 55rem;
+    bottom: 35.313rem;
+    z-index: 0;
+
+}

@@ -1,0 +1,31 @@
+/* Add a black background color to the top navigation */
+.navbar__Topnav {
+    background-color: $white;
+    overflow: hidden;
+    margin-inline: 5rem;
+}
+
+.navbar__Topnav img {
+    width: 2rem;
+    margin: 1.5rem;
+    float: left;
+}
+
+.navbar__Topnav a {
+  float: left;
+  color: $quicksilver;
+  text-align: center;
+  padding-block: 2.5rem;
+  padding-inline: 2rem;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar__TopnavRight {
+  float: right;
+  padding: 2rem;
+}
+
+.navbar__TopnavRight button {
+   margin-right: 2rem;
+  }
